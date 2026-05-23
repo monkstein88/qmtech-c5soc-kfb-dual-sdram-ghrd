@@ -83,11 +83,11 @@ set_global_assignment -name ENABLE_OCT_DONE OFF
 set_global_assignment -name ENABLE_CONFIGURATION_PINS OFF
 set_global_assignment -name ENABLE_BOOT_SEL_PIN OFF
 set_global_assignment -name STRATIXV_CONFIGURATION_SCHEME "PASSIVE PARALLEL X16"
-set_global_assignment -name GENERATE_RBF_FILE ON
+set_global_assignment -name GENERATE_RBF_FILE OFF
 set_global_assignment -name CRC_ERROR_OPEN_DRAIN ON
-set_global_assignment -name GENERATE_SVF_FILE ON
-set_global_assignment -name GENERATE_JAM_FILE ON
-set_global_assignment -name GENERATE_JBC_FILE ON
+set_global_assignment -name GENERATE_SVF_FILE OFF
+set_global_assignment -name GENERATE_JAM_FILE OFF
+set_global_assignment -name GENERATE_JBC_FILE OFF
 set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVTTL"
 set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -rise
 set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -fall
@@ -443,4 +443,5 @@ set_instance_assignment -name GLOBAL_SIGNAL OFF -to HPS_SOPC_INST|hps_0|hps_io|b
 set_instance_assignment -name GLOBAL_SIGNAL OFF -to HPS_SOPC_INST|hps_0|hps_io|border|hps_sdram_inst|p0|umemphy|uread_datapath|reset_n_fifo_wraddress[3] -tag __hps_sdram_p0
 set_instance_assignment -name ENABLE_BENEFICIAL_SKEW_OPTIMIZATION_FOR_NON_GLOBAL_CLOCKS ON -to HPS_SOPC_INST|hps_0|hps_io|border|hps_sdram_inst -tag __hps_sdram_p0
 set_instance_assignment -name PLL_COMPENSATION_MODE DIRECT -to HPS_SOPC_INST|hps_0|hps_io|border|hps_sdram_inst|pll0|fbout -tag __hps_sdram_p0
+
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

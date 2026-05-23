@@ -1,5 +1,5 @@
 Flow report for qmtech_c5soc_kfb_dual_sdram_ghrd
-Sun May 10 21:39:04 2026
+Sat May 23 02:41:13 2026
 Quartus Prime Version 25.1std.0 Build 1129 10/21/2025 SC Standard Edition
 
 
@@ -41,7 +41,7 @@ on the Quartus Prime software download page.
 +---------------------------------------------------------------------------------------+
 ; Flow Summary                                                                          ;
 +---------------------------------+-----------------------------------------------------+
-; Flow Status                     ; Successful - Sun May 10 21:39:04 2026               ;
+; Flow Status                     ; Successful - Sat May 23 02:41:13 2026               ;
 ; Quartus Prime Version           ; 25.1std.0 Build 1129 10/21/2025 SC Standard Edition ;
 ; Revision Name                   ; qmtech_c5soc_kfb_dual_sdram_ghrd                    ;
 ; Top-level Entity Name           ; qmtech_c5soc_kfb_dual_sdram_ghrd                    ;
@@ -68,7 +68,7 @@ on the Quartus Prime software download page.
 +-------------------+----------------------------------+
 ; Option            ; Setting                          ;
 +-------------------+----------------------------------+
-; Start date & time ; 05/10/2026 21:27:02              ;
+; Start date & time ; 05/23/2026 02:30:53              ;
 ; Main task         ; Compilation                      ;
 ; Revision Name     ; qmtech_c5soc_kfb_dual_sdram_ghrd ;
 +-------------------+----------------------------------+
@@ -79,7 +79,7 @@ on the Quartus Prime software download page.
 +---------------------------------------+----------------------------------------------------------------------------------+--------------------------------------+--------------------------------+-----------------------------------+
 ; Assignment Name                       ; Value                                                                            ; Default Value                        ; Entity Name                    ; Section Id                        ;
 +---------------------------------------+----------------------------------------------------------------------------------+--------------------------------------+--------------------------------+-----------------------------------+
-; COMPILER_SIGNATURE_ID                 ; 264800833728769.177843761811821                                                  ; --                                   ; --                             ; --                                ;
+; COMPILER_SIGNATURE_ID                 ; 264800833728769.177949264929870                                                  ; --                                   ; --                             ; --                                ;
 ; ECO_REGENERATE_REPORT                 ; On                                                                               ; Off                                  ; --                             ; --                                ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST       ; Off                                                                              ; --                                   ; --                             ; eda_board_design_timing           ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST       ; Off                                                                              ; --                                   ; --                             ; eda_board_design_boundary_scan    ;
@@ -161,12 +161,12 @@ on the Quartus Prime software download page.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:01:08     ; 1.0                     ; 902 MB              ; 00:01:37                           ;
-; Fitter               ; 00:03:25     ; 1.2                     ; 2773 MB             ; 00:05:52                           ;
-; Assembler            ; 00:00:41     ; 1.0                     ; 608 MB              ; 00:00:41                           ;
-; Timing Analyzer      ; 00:01:03     ; 1.4                     ; 1720 MB             ; 00:01:26                           ;
-; EDA Netlist Writer   ; 00:00:10     ; 1.0                     ; 788 MB              ; 00:00:10                           ;
-; Total                ; 00:06:27     ; --                      ; --                  ; 00:09:46                           ;
+; Analysis & Synthesis ; 00:01:05     ; 1.0                     ; 886 MB              ; 00:01:34                           ;
+; Fitter               ; 00:03:24     ; 1.3                     ; 2775 MB             ; 00:05:54                           ;
+; Assembler            ; 00:00:16     ; 1.0                     ; 612 MB              ; 00:00:16                           ;
+; Timing Analyzer      ; 00:01:03     ; 1.4                     ; 1719 MB             ; 00:01:24                           ;
+; EDA Netlist Writer   ; 00:00:09     ; 1.0                     ; 788 MB              ; 00:00:09                           ;
+; Total                ; 00:05:57     ; --                      ; --                  ; 00:09:17                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

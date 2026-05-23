@@ -13,7 +13,7 @@ set_global_assignment -name USE_CONFIGURATION_DEVICE OFF
 set_global_assignment -name ON_CHIP_BITSTREAM_DECOMPRESSION OFF
 # Set configuration scheme to Passive Parallel x16 (FPP x16) - this setting refers to multiple Intel FPGA families (including Stratix V, Arria V, and Cyclone V) 
 set_global_assignment -name STRATIXV_CONFIGURATION_SCHEME "PASSIVE PARALLEL X16"
-set_global_assignment -name GENERATE_RBF_FILE ON
+set_global_assignment -name GENERATE_RBF_FILE OFF
 set_global_assignment -name OCP_HW_EVAL DISABLE
 
 

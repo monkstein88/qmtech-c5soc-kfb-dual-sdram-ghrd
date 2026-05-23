@@ -1,5 +1,5 @@
 Analysis & Synthesis report for qmtech_c5soc_kfb_dual_sdram_ghrd
-Sun May 10 21:33:32 2026
+Sat May 23 02:36:08 2026
 Quartus Prime Version 25.1std.0 Build 1129 10/21/2025 SC Standard Edition
 
 
@@ -554,7 +554,7 @@ on the Quartus Prime software download page.
 +---------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                          ;
 +---------------------------------+-----------------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Sun May 10 21:33:32 2026               ;
+; Analysis & Synthesis Status     ; Successful - Sat May 23 02:36:08 2026               ;
 ; Quartus Prime Version           ; 25.1std.0 Build 1129 10/21/2025 SC Standard Edition ;
 ; Revision Name                   ; qmtech_c5soc_kfb_dual_sdram_ghrd                    ;
 ; Top-level Entity Name           ; qmtech_c5soc_kfb_dual_sdram_ghrd                    ;
@@ -677,7 +677,7 @@ on the Quartus Prime software download page.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   0.1%      ;
+;     Processor 2            ;   0.0%      ;
 ;     Processor 3            ;   0.0%      ;
 ;     Processor 4            ;   0.0%      ;
 +----------------------------+-------------+
@@ -13046,7 +13046,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +---------------------------------------+--------------+
 ; Partition Name                        ; Elapsed Time ;
 +---------------------------------------+--------------+
-; Top                                   ; 00:00:17     ;
+; Top                                   ; 00:00:15     ;
 ; soc_system_hps_0_hps_io_border:border ; 00:00:01     ;
 +---------------------------------------+--------------+
 
@@ -13057,7 +13057,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 25.1std.0 Build 1129 10/21/2025 SC Standard Edition
-    Info: Processing started: Sun May 10 21:26:53 2026
+    Info: Processing started: Sat May 23 02:30:45 2026
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off qmtech_c5soc_kfb_dual_sdram_ghrd -c qmtech_c5soc_kfb_dual_sdram_ghrd
 Info (16303): Aggressive Performance optimization mode selected -- timing performance will be prioritized at the potential cost of increased logic area and compilation time
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -13596,7 +13596,7 @@ Warning (12010): Port "probe" on the entity instantiation of "altsource_probe_co
 Warning (12010): Port "ir_out" on the entity instantiation of "node" is connected to a signal of width 1. The formal width of the signal in the module is 3.  The extra bits will be driven by GND. File: /home/monklp/workspace/GITHUB/__monkstein88__/qmtech-c5soc-kfb-linux-build-env/SOURCES/qmtech-c5soc-kfb-dual-sdram-ghrd/qsys/soc_system/synthesis/submodules/altera_avalon_st_jtag_interface.v Line: 101
 Warning (12010): Port "ir_out" on the entity instantiation of "node" is connected to a signal of width 1. The formal width of the signal in the module is 3.  The extra bits will be driven by GND. File: /home/monklp/workspace/GITHUB/__monkstein88__/qmtech-c5soc-kfb-linux-build-env/SOURCES/qmtech-c5soc-kfb-dual-sdram-ghrd/qsys/soc_system/synthesis/submodules/altera_avalon_st_jtag_interface.v Line: 101
 Info (11170): Starting IP generation for the debug fabric: alt_sld_fab.
-Info (11172): 2026.05.10.21:27:24 Progress: Loading sld4bb7feb7/alt_sld_fab_wrapper_hw.tcl
+Info (11172): 2026.05.23.02:31:16 Progress: Loading sld4bb7feb7/alt_sld_fab_wrapper_hw.tcl
 Info (11172): Alt_sld_fab.alt_sld_fab: SLD fabric agents which did not specify prefer_host were connected to JTAG
 Info (11172): Alt_sld_fab: Generating "alt_sld_fab" for QUARTUS_SYNTH
 Info (11172): Alt_sld_fab: "alt_sld_fab" instantiated alt_sld_fab "alt_sld_fab"
@@ -13803,10 +13803,10 @@ Info (21057): Implemented 7342 device resources after synthesis - the final reso
     Info (21064): Implemented 72 RAM segments
     Info (21066): Implemented 1 delay-locked loops
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 103 warnings
-    Info: Peak virtual memory: 902 megabytes
-    Info: Processing ended: Sun May 10 21:33:33 2026
-    Info: Elapsed time: 00:06:40
-    Info: Total CPU time (on all processors): 00:07:08
+    Info: Peak virtual memory: 886 megabytes
+    Info: Processing ended: Sat May 23 02:36:08 2026
+    Info: Elapsed time: 00:05:23
+    Info: Total CPU time (on all processors): 00:05:52
 
 
 +------------------------------------------+
